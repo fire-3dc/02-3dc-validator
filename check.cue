@@ -1,5 +1,1 @@
-{
-    asset:  {}
-    scene?: number
-    scenes: [...]
-}
+scene_count?: 1
