@@ -3,5 +3,5 @@ blender --background --python-expr "import bpy; bpy.ops.import_scene.gltf(filepa
 cue import json: embedded.gltf -f # Convert to cue.
 cp report_template.cue report.cue # Put text at the start of the file.
 cat embedded.cue >> report.cue # Put text at the start of the file.
-cue eval report.cue -e "{scenes: scene_count, nodes: node_count, materials: material_count}" # Get report
+cue eval report.cue --out json -e "{scenes: scene_count, nodes: node_count, materials: material_count, images: image_count}" # Get report
 cue vet report.cue schema: check.cue # Use checks.

@@ -1,7 +1,7 @@
-scene_count: len(scenes)
-node_count: len(nodes)
+scene_count:    len(scenes)
+node_count:     len(nodes)
 material_count: len(materials)
-
+image_count: len(images)
 asset: {
 	generator: "Khronos glTF Blender I/O v3.2.43"
 	version:   "2.0"
