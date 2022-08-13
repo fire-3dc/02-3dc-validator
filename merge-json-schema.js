@@ -1,6 +1,7 @@
 // json-schema-ref-parser
 
 const fs = require('fs');
+// Fetch the gltf 2.0 specification schema folder
 const $RefParser = require("@apidevtools/json-schema-ref-parser");  
 const process = require('process');
 process.chdir('schemas/gltf/2.0/schema/');
