@@ -1,2 +1,4 @@
-scene_length: len(scenes)
-node_length: len(nodes)
+scene_count: len(scenes)
+node_count: len(nodes)
+material_count: len(materials)
+
