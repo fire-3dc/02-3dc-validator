@@ -1,0 +1,5 @@
+{
+    asset:  {}
+    scene?: number
+    scenes: [...]
+}
